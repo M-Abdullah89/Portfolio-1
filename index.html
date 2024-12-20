@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Abdullah | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Muhammad Abdullah</li>
+            <li class="nav-links"><a href="#home">Home</a></li>
+            <li class="nav-links"><a href="#about">About</a></li>
+            <li class="nav-links"><a href="#skills">Skills</a></li>
+            <li class="nav-links"><a href="#contact">Contact</a></li>
+            <li><a>
+                    <div class="toggle-container">
+                        <div class="toggle">
+                            <input type="checkbox" id="theme-toggle">
+                            <span class="slider">
+                                <i class="fas fa-sun icon sun"></i>
+                                <i class="fas fa-moon icon moon"></i>
+                            </span>
+                        </div>
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <header id="home">
+        <div class="hero-text">
+            <p>Hi Guys Welcome to my portfolio! I am</p>
+            <span class="typing-container" id="typing-container"></span>
+            <p>Scroll Down to see more</p>
+        </div>
+
+    </header>
+
+    <div class="separator"></div>
+
+    <section id="about">
+        <div class="about-image">
+          <img src="Asset/About-pic.png" alt="About Me">
+        </div>
+        <div class="about-text">
+          <h1>About Me</h1>
+          <p>
+            Hello! I'm Abdullah a tech enthusiast and aspiring web developer.
+            I specialize in building responsive and user-centric web designs that bring ideas to life. With a keen interest in JavaScript and frontend development, I'm constantly exploring new technologies to enhance my skills.
+            When I'm not coding, I enjoy reading, experimenting with creative projects, and sharing knowledge with others. My journey is driven by curiosity, creativity, and a passion for making the web more accessible and engaging. Let's build something amazing together!
+            
+            </p>
+        </div>
+      </section>
+
+    <div class="separator"></div>
+
+    <section id="skills">
+        <span class="skills-heading">
+            <h1>Skills</h1>
+        </span>
+        <div class="cards">
+            <div class="html">
+                <p>HTML</p>
+                <img src="Asset/icons8-html-96.png" alt="HTML icon">
+                <div>
+                    <div class="progress-container">
+                        <div class="progress-bar progress-bar1" ></div>
+                    </div>
+                    <p class="progress-text" id="progressText">Progress: 98%</p>
+                </div>
+            </div>
+            <div class="css">
+                <p>CSS</p>
+                <img src="Asset/icons8-css-96.png" alt="Css-icon">
+                <div>
+                    <div class="progress-container">
+                        <div class="progress-bar progress-bar2"></div>
+                    </div>
+                    <p class="progress-text" id="progressText">Progress: 80%</p>
+                </div>
+            </div>
+            <div class="Javascript">
+                <p>Javascript</p>
+                <img src="Asset/icons8-javascript-96.png" alt="JavaScript-logo">
+                <div>
+                    <div class="progress-container">
+                        <div class="progress-bar progress-bar3" ></div>
+                    </div>
+                    <p class="progress-text" id="progressText">Progress: 70%</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="separator"></div>
+
+    <section id="contact">
+        <form class="contact-form" id="contactForm"  action="https://formsubmit.co/430f0cde59200b4af312463dc8cfaa9e "method="POST">
+            <h2>Contact Me</h2>
+            <div class="form-group" id="nameGroup">
+                <input type="text" id="name" name="name" placeholder=" ">
+                <label for="name">Name</label>
+            </div>
+            <div class="form-group" id="emailGroup">
+                <input type="text" id="email" name="email" placeholder=" ">
+                <label for="email">Email</label>
+            </div>
+            <div class="form-group" id="subjectGroup">
+                <input type="text" id="subject" name="subject" placeholder=" ">
+                <label for="subject">Subject</label>
+            </div>
+            <div class="form-group" id="messageGroup">
+                <textarea id="message" name="message" rows="4" placeholder=" "></textarea>
+                <label for="message">Message</label>
+                <input type="hidden" name="_captcha" value="false">
+            </div>
+            <div class="button-wrapper">
+                <button type="submit"  class="form-btn">Submit</button>
+            </div>
+        </form>
+    
+    </section>
+
+    <div class="separator"></div>
+
+    <footer id="footer">
+        <h3> Created By <span>Muhammad Abdullah</span></h3>
+        <p>&copy; All rights reserved</p>
+        <div class="socials">
+           <a target="_blank" href="https://github.com/M-Abdullah89"><img src="Asset/icons8-github-90.png" alt="github logo"><span class="social-name">Github</span></a>
+           <a target="_blank" href="https://www.linkedin.com/in/muhammad-abdullah-1192b7320/"><img src="Asset/icons8-linkedin-logo-96.png" alt="linkedin logo"><span class="social-name">Linkedin</span></a>
+           <a target="_blank" href="https://www.instagram.com/absnippets"><img src="Asset/icons8-instagram-100.png" alt="instagram-logo"><span class="social-name">instagram</span></a>
+        </div>
+    </footer>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Element to contain animated typing -->
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#typing-container', {
+        strings: ['Muhammad Abdullah'],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</body>
+</body>
+</html>
