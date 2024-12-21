@@ -433,7 +433,7 @@ input:checked + .slider:before {
   -webkit-transition: all 0.5s;
   animation: fadeIn linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  animation-range: entry 0% cover 20%;
 }
 
 .form-btn:hover {
