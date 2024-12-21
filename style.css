@@ -383,7 +383,7 @@ input:checked + .slider:before {
   margin-bottom: 20px;
   animation: fadeIn linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  animation-range: entry 0% cover 28%;
 }
 .form-group input,
 .form-group textarea {
@@ -485,7 +485,7 @@ textarea {
   width: 96px;
   animation: fadeIn linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 20%;
+  animation-range: entry 0% cover 10%;
 }
 .socials img:hover ~ .social-name {
   visibility: visible;
