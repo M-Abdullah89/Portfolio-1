@@ -3,6 +3,7 @@
 :root {
   --color-background: #ecf0f1;
   --color-foreground: #3498db;
+  --color-heading:#3498db;
   --color-text: #2c3e50;
   --color-button-background: #2ecc71;
   --color-button-text: white;
@@ -18,6 +19,7 @@
 [data-theme="dark"] {
   --color-background: #2c3e50;
   --color-foreground: #bdc3c7;
+  --color-heading:#1abc9c;
   --color-text: #ecf0f1;
   --color-button-background: #27ae60;
   --color-button-text: white;
@@ -185,7 +187,7 @@ input:checked+.slider:before {
 .typing-container {
   font-family: "Courier New", Courier, monospace;
   font-size: 3em;
-  color: var(--color-foreground);
+  color: var(--color-heading);
   white-space: nowrap;
   overflow: hidden;
 }
