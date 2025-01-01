@@ -17,8 +17,8 @@ toggle.addEventListener('change', () => {
   }
 });
 
-// // Toggle theme immediately on slider click
-// document.querySelector('.slider').addEventListener('click', () => {
-//   toggle.checked = !toggle.checked;
-//   toggle.dispatchEvent(new Event('change'));
-// });
+// Toggle theme immediately on slider click
+document.querySelector('.slider').addEventListener('click', () => {
+  toggle.checked = !toggle.checked;
+  toggle.dispatchEvent(new Event('change'));
+});
