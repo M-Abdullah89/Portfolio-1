@@ -1,7 +1,7 @@
 //! Script for dark and light theme toogle
 const toggle = document.getElementById('theme-toggle');
 const savedTheme = localStorage.getItem('theme');
-
+document.documentElement.style.transition="all 0.7s ease-in-out";
 if (savedTheme) {
   document.documentElement.setAttribute('data-theme', savedTheme);
   toggle.checked = savedTheme === 'dark';
