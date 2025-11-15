@@ -4,8 +4,8 @@ A simple and clean portfolio website to showcase my skills and projects.
 
 ## Features
 - Responsive design  
-- Projects section  
-- Contact links  
+- About Section
+- Contact links 
 
 ## Tech Used
 - HTML  
