@@ -14,6 +14,7 @@
   --form-dark: #2ba8fb;
   --form-light: #6fc5ff;
   --form-box-shadow: #6fc5ff50;
+  transition: all 0.7s ease-in-out
 }
 
 [data-theme="dark"] {
@@ -30,11 +31,12 @@
   --form-dark: #1abc9c;
   --form-light: #36bda2;
   --form-box-shadow: #36bda250;
+  transition: all 0.7s ease-in-out;
 }
 
 html {
   scroll-behavior: smooth;
-  transition: all 0.7s ease-in;
+  transition: all 0.7s ease-in-out;
 }
 
 * {
@@ -46,7 +48,7 @@ html {
 body {
   background-color: var(--color-background);
   color: var(--color-text);
-  transition: all 0.7s ease-in;
+  transition: all 0.7s ease-in-out;
   overflow-x: hidden;
 }
 
@@ -57,6 +59,7 @@ nav ul {
   background-color: var(--color-background);
   display: flex;
   padding: 1em;
+  transition: all 0.7s ease-in-out;
 }
 
 nav ul li:first-child {
@@ -167,6 +170,7 @@ input:checked+.slider:before {
   height: 2px;
   width: 100%;
   background-color: var(--color-foreground);
+  transition: all 0.7s ease-in-out;
 }
 
 /* ! Header Area */
@@ -177,12 +181,14 @@ input:checked+.slider:before {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.7s ease-in-out;
 }
 
 .hero-text {
   text-align: center;
   color: var(--color-text);
   font-family: "Inter", sans-serif;
+  transition: all 0.7s ease-in-out;
 }
 
 .typing-container {
@@ -191,6 +197,7 @@ input:checked+.slider:before {
   color: var(--color-heading);
   white-space: nowrap;
   overflow: hidden;
+  transition: all 0.7s ease-in-out;
 }
 
 .typed-cursor {
@@ -222,6 +229,7 @@ input:checked+.slider:before {
   padding: 20px;
   gap: 20px;
   height: 90vh;
+  transition: all 0.7s ease-in-out;
 }
 
 .about-image {
@@ -260,6 +268,7 @@ input:checked+.slider:before {
   animation: moveup linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
+  transition: all 0.7s ease-in-out;
 }
 
 @keyframes moveup {
@@ -294,6 +303,7 @@ input:checked+.slider:before {
   justify-content: start;
   align-items: center;
   flex-direction: column;
+  transition: all 0.7s ease-in-out;
 }
 
 .skills-heading {
@@ -334,6 +344,7 @@ input:checked+.slider:before {
   animation: fadeIn linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
+  transition: all 0.7s ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -355,6 +366,7 @@ input:checked+.slider:before {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.7s ease-in-out;
 }
 
 .progress-bar {
@@ -391,6 +403,7 @@ input:checked+.slider:before {
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  transition: all 0.7s ease-in-out;
 }
 
 .contact-form {
@@ -399,7 +412,7 @@ input:checked+.slider:before {
   border-radius: 10px;
   width: 100%;
   max-width: 400px;
-
+  transition: all 0.7s ease-in-out;
 }
 
 .contact-form h2 {
@@ -428,7 +441,7 @@ input:checked+.slider:before {
   border-radius: 5px;
   font-size: 1rem;
   outline: none;
-  transition: border-color 0.3s ease;
+  transition: all 0.7s ease-in-out;
 }
 
 .form-group input:focus,
@@ -491,6 +504,7 @@ textarea {
   align-items: center;
   flex-direction: column;
   user-select: none;
+  transition: all 0.7s ease-in-out;
 }
 
 #footer h3 {
