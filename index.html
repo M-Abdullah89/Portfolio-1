@@ -106,11 +106,11 @@
         <form class="contact-form" id="contactForm"  action="https://formsubmit.co/430f0cde59200b4af312463dc8cfaa9e "method="POST">
             <h2>Contact Me</h2>
             <div class="form-group" id="nameGroup">
-                <input type="text" id="name" name="name" placeholder=" ">
+                <input type="text" id="name" name="name" placeholder=" " required>
                 <label for="name">Name</label>
             </div>
             <div class="form-group" id="emailGroup">
-                <input type="text" id="email" name="email" placeholder=" ">
+                <input type="text" id="email" name="email" placeholder=" " required>
                 <label for="email">Email</label>
             </div>
             <div class="form-group" id="subjectGroup">
@@ -118,7 +118,7 @@
                 <label for="subject">Subject</label>
             </div>
             <div class="form-group" id="messageGroup">
-                <textarea id="message" name="message" rows="4" placeholder=" "></textarea>
+                <textarea id="message" name="message" rows="4" placeholder=" " required></textarea>
                 <label for="message">Message</label>
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="https://portfolio-ofabdullah.netlify.app/">
